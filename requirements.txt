@@ -1,0 +1,10 @@
+# Data Manipulation & Cleaning
+pandas==2.2.2
+numpy==1.26.4
+
+# Excel File Processing
+openpyxl==3.1.2
+
+# Database Connectivity & ORM
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9
