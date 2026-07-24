@@ -60,6 +60,6 @@ df_clean = df_long.pivot_table(
 ).reset_index()
 df_clean.columns.name = None
  
-#df_clean.to_csv("foodbank_clean.csv", index=False)
+df_clean.to_csv("foodbank_clean.csv", index=False)
 print(df_clean)
  
