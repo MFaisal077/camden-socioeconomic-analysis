@@ -54,5 +54,5 @@ ward_summary = ward_summary.sort_values(by="claimant_volume", ascending=False)
 st.bar_chart(ward_summary.set_index("ward_name"))
 
 
-with st.expander("🔍 View Raw Underlying Data Table"):
+with st.expander("View Raw Underlying Data Table"):
     st.dataframe(df_distress)
